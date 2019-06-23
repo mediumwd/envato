@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  padding: 50px 0;
+  &-text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    text-align: center;
+    h2{
+      color: #82b541;
+      text-transform: uppercase;
+      font-family: 'Roboto Slab', serif;
+      letter-spacing: 5px;
+      font-size: 18px;
+    }
+  }
+  &-holder{
+    background-color: #4a454b;
+  }
+  &-logo {
+    padding-right: 5px;
+  }
+  .links {
+    margin-left: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    ul {
+      display: flex;
+      list-style: none;
+      text-transform: uppercase;
+      li {
+        margin-left: 45px;
+      }
+    }
+  }
+}

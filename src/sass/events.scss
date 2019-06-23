@@ -1,0 +1,32 @@
+.event {
+  .timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px 100px;
+    border: 2px solid #90d23d;
+    border-radius: 20px;
+    margin: 30px;
+
+    .counter {
+      font-size: 130px;
+      font-weight: 100;
+      position: relative;
+
+    }
+    .timer-dots:after{
+      content: ':';
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 120%;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}
