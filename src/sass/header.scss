@@ -21,6 +21,7 @@
   }
   &-holder{
     background-color: #4a454b;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 123px), 0 100%);
   }
   &-logo {
     padding-right: 5px;
